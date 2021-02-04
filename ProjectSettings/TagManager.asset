@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Instructions
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 3562238425
+    locked: 0
+  - name: Instructions
+    uniqueID: 293230413
     locked: 0
