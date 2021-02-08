@@ -5884,7 +5884,7 @@ GameObject:
   - component: {fileID: 1081875824}
   - component: {fileID: 1081875823}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: SunText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6213,7 +6213,7 @@ GameObject:
   - component: {fileID: 1500587065}
   - component: {fileID: 1500587064}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: GrowthStageText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6347,7 +6347,7 @@ GameObject:
   - component: {fileID: 1528246349}
   - component: {fileID: 1528246348}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: FertilizerText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6469,6 +6469,61 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528246346}
   m_CullTransparentMesh: 0
+--- !u!1 &1581500343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1581500345}
+  - component: {fileID: 1581500344}
+  m_Layer: 0
+  m_Name: PlayerController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1581500344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581500343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3f3905904559b49a81d96d6b4788e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  money: 0
+  moneyText: {fileID: 1736532997}
+  growthStage: 0
+  growthStageText: {fileID: 1500587064}
+  seedPotential: 99
+  seedPotentialText: {fileID: 1771633797}
+  water: 75
+  waterDecreaseFactor: 0.4
+  waterText: {fileID: 1688675725}
+  fertilizer: 75
+  fertilizeDecreaseFactor: 0.6
+  fertilizerText: {fileID: 1528246348}
+--- !u!4 &1581500345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581500343}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.22876418, y: -0.11019996, z: -8.712793}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1688675723
 GameObject:
   m_ObjectHideFlags: 0
@@ -6481,7 +6536,7 @@ GameObject:
   - component: {fileID: 1688675726}
   - component: {fileID: 1688675725}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: WaterText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6615,7 +6670,7 @@ GameObject:
   - component: {fileID: 1736532998}
   - component: {fileID: 1736532997}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: MoneyText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6749,7 +6804,7 @@ GameObject:
   - component: {fileID: 1771633798}
   - component: {fileID: 1771633797}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: SeedText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
