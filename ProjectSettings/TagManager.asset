@@ -38,12 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Instructions
+    uniqueID: 293230413
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: UI
     uniqueID: 3562238425
-    locked: 0
-  - name: Instructions
-    uniqueID: 293230413
     locked: 0
